@@ -84,7 +84,7 @@ div.box {
   padding: 1.2em;
   justify-self: center;
   border-radius: .4em;
-  box-shadow: 0em .3em 1em var(--greyish-blue-color); 
+  box-shadow: 0em .3em 1.5em var(--greyish-blue-color); 
 }
 
 img {
@@ -134,9 +134,15 @@ h1.by-tech {
   margin-bottom: .5em;
 }
 
+/* Media queries */
 @media (min-width: 768px) {
   div.header--content {
     max-width: 450px;
+  }
+  
+  body {
+    margin-right: 3em;
+    margin-left: 3em;
   }
 
   main.main {
@@ -147,7 +153,7 @@ h1.by-tech {
   }
 
   div.box {
-    max-width: 300px;
+    max-width: 350px;
     padding: 1.7em;
   }
 
